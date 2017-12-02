@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="586.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ta.MasalahHewanController">
+   <children>
+      <ImageView fitHeight="561.0" fitWidth="465.0" layoutX="14.0" layoutY="12.0">
+         <image>
+            <Image url="@C8C8C8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="586.0" fitWidth="500.0">
+         <image>
+            <Image url="@238f8f36f00e293f459cba31cc1ba12b.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="53.0" layoutY="20.0" prefHeight="27.0" prefWidth="114.0" text="Perawatan Hewan">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="penyakit" layoutX="68.0" layoutY="62.0" mnemonicParsing="false" onAction="#sakit" prefHeight="27.0" prefWidth="149.0" style="-fx-background-color: #fac4ff;" text="Penyakit-penyakit" />
+      <Button fx:id="tips" layoutX="65.0" layoutY="109.0" mnemonicParsing="false" onAction="#merawat" prefHeight="27.0" prefWidth="155.0" style="-fx-background-color: #fac4ff;" text="Tips-tips merawat hewan" />
+      <TextArea fx:id="solusi" layoutX="43.0" layoutY="192.0" prefHeight="124.0" prefWidth="409.0" style="-fx-background-color: #fff1c1;" />
+      <Label layoutX="53.0" layoutY="154.0" prefHeight="27.0" prefWidth="52.0" text="  Solusi">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="341.0" prefHeight="25.0" prefWidth="72.0" text="Pembelian">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Separator layoutX="18.0" layoutY="335.0" prefHeight="1.0" prefWidth="465.0" />
+      <Label layoutX="49.0" layoutY="393.0" text="Barang">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="49.0" layoutY="480.0" text="Jumlah">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="52.0" layoutY="438.0" text="Harga">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="baranghw" layoutX="105.0" layoutY="381.0" prefHeight="41.0" prefWidth="149.0" />
+      <TextField fx:id="jumlahhw" layoutX="110.0" layoutY="478.0" prefHeight="17.0" prefWidth="80.0" />
+      <TextField fx:id="hargahw" layoutX="105.0" layoutY="434.0" />
+      <Separator layoutX="102.0" layoutY="521.0" prefHeight="3.0" prefWidth="155.0" />
+      <Button fx:id="btntotalhw" layoutX="217.0" layoutY="538.0" mnemonicParsing="false" onAction="#klikhw" text="Oke" />
+      <Button fx:id="btnbackhw" layoutX="418.0" layoutY="538.0" mnemonicParsing="false" onAction="#backhw" text="Back" />
+   </children>
+</AnchorPane>

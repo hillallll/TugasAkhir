@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="503.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ta.MasalahTumbuhanController">
+   <children>
+      <ImageView fitHeight="577.0" fitWidth="503.0">
+         <image>
+            <Image url="@b6066b38470cdf9c0a16b6ac88402935.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="547.0" fitWidth="458.0" layoutX="22.0" layoutY="14.0" opacity="0.61">
+         <image>
+            <Image url="@C8C8C8.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="39.0" layoutY="24.0" prefHeight="22.0" prefWidth="123.0" text="Masalah Tumbuhan">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="tum1" layoutX="50.0" layoutY="57.0" mnemonicParsing="false" onAction="#ac1" prefHeight="32.0" prefWidth="157.0" style="-fx-background-color: #d3f6ff;" text="Penyakit-penyakit" />
+      <Button fx:id="tum2" layoutX="50.0" layoutY="103.0" mnemonicParsing="false" onAction="#ac2" prefHeight="32.0" prefWidth="157.0" style="-fx-background-color: #d3f6ff;" text="Tips merawat tumbuhan" />
+      <TextArea fx:id="solusi" layoutX="39.0" layoutY="180.0" prefHeight="126.0" prefWidth="386.0" style="-fx-background-color: #fff1c1;" />
+      <Label layoutX="39.0" layoutY="148.0" prefHeight="22.0" prefWidth="45.0" text="Solusi">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="22.0" layoutY="323.0" prefHeight="0.0" prefWidth="435.0" />
+      <Label layoutX="48.0" layoutY="334.0" text="Pembelian">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="50.0" layoutY="381.0" text="Barang">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="53.0" layoutY="425.0" text="Harga">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="50.0" layoutY="459.0" text="Jumlah">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Separator layoutX="53.0" layoutY="494.0" prefHeight="3.0" prefWidth="218.0" />
+      <TextField fx:id="barangtum" layoutX="101.0" layoutY="370.0" prefHeight="39.0" prefWidth="149.0" />
+      <TextField fx:id="jumlahtum" layoutX="101.0" layoutY="457.0" prefHeight="25.0" prefWidth="75.0" />
+      <TextField fx:id="hargatum" layoutX="101.0" layoutY="421.0" />
+      <Button fx:id="btntotaltum" layoutX="211.0" layoutY="513.0" mnemonicParsing="false" onAction="#totaltum" text="Total" />
+      <Button fx:id="btnbacktum" layoutX="425.0" layoutY="526.0" mnemonicParsing="false" onAction="#backtum" text="Back" />
+   </children>
+</AnchorPane>

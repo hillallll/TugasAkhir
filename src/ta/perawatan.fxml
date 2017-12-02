@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="252.0" prefWidth="337.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ta.PerawatanController">
+   <children>
+      <ImageView fitHeight="252.0" fitWidth="200.0" layoutX="65.0" opacity="0.26">
+         <image>
+            <Image url="@f39c53da0a74b7bcea3667f767af968a.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="123.0" layoutY="58.0" text="Perawatan" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button fx:id="hewan" layoutX="138.0" layoutY="101.0" mnemonicParsing="false" onAction="#hewan" text="Hewan" />
+      <Button fx:id="tumbuhan" layoutX="128.0" layoutY="142.0" mnemonicParsing="false" onAction="#tumbuhaaan" text="Tumbuhan" />
+   </children>
+</AnchorPane>
